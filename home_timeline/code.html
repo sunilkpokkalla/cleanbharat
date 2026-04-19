@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>CleanBharat - Home</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-tertiary-fixed-variant": "#5c4300",
+                    "error": "#ba1a1a",
+                    "on-surface-variant": "#424753",
+                    "tertiary-fixed-dim": "#fbbc05",
+                    "tertiary-fixed": "#ffdfa0",
+                    "outline": "#727785",
+                    "inverse-surface": "#313030",
+                    "primary-fixed-dim": "#adc6ff",
+                    "inverse-on-surface": "#f4f0ef",
+                    "surface-tint": "#005ac1",
+                    "surface-bright": "#fcf8f8",
+                    "background": "#fcf8f8",
+                    "on-tertiary": "#ffffff",
+                    "secondary": "#006e2c",
+                    "on-primary-fixed": "#001a41",
+                    "on-error-container": "#93000a",
+                    "surface-dim": "#ddd9d9",
+                    "tertiary": "#765700",
+                    "surface-container-lowest": "#ffffff",
+                    "on-primary-fixed-variant": "#004494",
+                    "tertiary-container": "#956e00",
+                    "surface-container-high": "#ebe7e7",
+                    "secondary-fixed": "#89fa9b",
+                    "surface-variant": "#e5e2e1",
+                    "on-tertiary-container": "#fffbff",
+                    "on-background": "#1c1b1b",
+                    "primary-container": "#2771df",
+                    "on-secondary": "#ffffff",
+                    "on-surface": "#1c1b1b",
+                    "on-secondary-fixed": "#002108",
+                    "error-container": "#ffdad6",
+                    "surface-container": "#f1edec",
+                    "surface": "#fcf8f8",
+                    "surface-container-low": "#f7f3f2",
+                    "on-secondary-container": "#00722f",
+                    "secondary-container": "#86f898",
+                    "secondary-fixed-dim": "#6ddd81",
+                    "primary": "#0058bd",
+                    "inverse-primary": "#adc6ff",
+                    "on-primary-container": "#fefcff",
+                    "on-primary": "#ffffff",
+                    "primary-fixed": "#d8e2ff",
+                    "outline-variant": "#c2c6d5",
+                    "surface-container-highest": "#e5e2e1",
+                    "on-error": "#ffffff",
+                    "on-tertiary-fixed": "#261a00",
+                    "on-secondary-fixed-variant": "#005320"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {},
+            "fontFamily": {
+                    "headline": [
+                            "Plus Jakarta Sans"
+                    ],
+                    "body": [
+                            "Inter"
+                    ],
+                    "label": [
+                            "Inter"
+                    ]
+            }
+        },
+        },
+      }
+    </script>
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #fcf8f8;
+            color: #1c1b1b;
+        }
+        h1, h2, h3, h4, h5, h6, .font-headline {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        .material-symbols-outlined {
+          font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 24
+        }
+        .material-symbols-outlined.fill {
+          font-variation-settings:
+          'FILL' 1,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 24
+        }
+        /* Custom scrollbar for webkit */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #e5e2e1;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #c2c6d5;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface text-on-surface antialiased min-h-screen pb-24 md:pb-0">
+<!-- TopAppBar (Web & Mobile Hybrid Concept) -->
+<header class="sticky top-0 w-full z-50 bg-[#fcf8f8]/80 dark:bg-slate-950/80 backdrop-blur-xl shadow-[0_8px_32px_0_rgba(28,27,27,0.06)]">
+<div class="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-2xl" data-icon="account_balance" data-weight="fill">account_balance</span>
+<span class="text-xl font-extrabold tracking-tighter text-[#0058bd] dark:text-blue-400 font-headline">CleanBharat</span>
+</div>
+<!-- Web Navigation (Hidden on Mobile) -->
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-[#0058bd] dark:text-blue-300 font-semibold text-sm tracking-wide" href="#">Home</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#0058bd] transition-colors text-sm tracking-wide" href="#">Leaderboard</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#0058bd] transition-colors text-sm tracking-wide" href="#">Profile</a>
+</nav>
+<div class="flex items-center">
+<img alt="User profile avatar" class="w-10 h-10 rounded-full object-cover border-2 border-surface-container-lowest" data-alt="close up headshot of a person with dark hair smiling gently against a light neutral background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBU9Pv6HMf73hBf8pXSNNRlcTzE97n5Gqj57XHLlAynKp95_S-rr7xRwEGt3bm2UfU8EYVs8w0BwpHZUC5z-2LpjRFUdrBTj9DD90Pl00kcgiYeFnhjpatrYUr5IVw7MM6ightNxMDC3Jm7KF8Q-gllhnxcSCIvQLZKzTaByeGo9wgT9vxcC3e1C9QiyIrWiEVi1JpZlqEH3FAGZvRYf2AKeDzsYHTl1UHyz5Ukm_B80WWk4BJEj06LdUO32kvgONGqWttkEQzZAqU"/>
+</div>
+</div>
+</header>
+<!-- Main Content Canvas -->
+<main class="max-w-4xl mx-auto px-4 sm:px-6 py-12">
+<!-- Page Header -->
+<div class="mb-16 ml-[5%] mr-[10%]">
+<h1 class="text-5xl md:text-6xl font-headline font-bold tracking-tight text-on-surface mb-4">Live Reports</h1>
+<p class="text-lg text-on-surface-variant max-w-2xl font-body leading-relaxed">A real-time curation of civic issues reported across the city. Transparency in action.</p>
+</div>
+<!-- Filters / Quick Actions -->
+<div class="flex flex-wrap gap-4 mb-12 ml-[5%]">
+<button class="bg-surface-container-highest text-on-primary-fixed-variant px-5 py-2.5 rounded-full text-sm font-medium tracking-wide flex items-center gap-2 hover:bg-surface-variant transition-colors">
+<span class="material-symbols-outlined text-[18px]" data-icon="filter_list">filter_list</span>
+                All Wards
+            </button>
+<button class="bg-surface-container-lowest border-none shadow-[0_4px_12px_rgba(28,27,27,0.03)] text-on-surface px-5 py-2.5 rounded-full text-sm font-medium tracking-wide flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-error"></span>
+                Needs Attention
+            </button>
+<button class="bg-surface-container-lowest border-none shadow-[0_4px_12px_rgba(28,27,27,0.03)] text-on-surface px-5 py-2.5 rounded-full text-sm font-medium tracking-wide flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+                Resolved
+            </button>
+</div>
+<!-- Timeline Feed -->
+<div class="space-y-16">
+<!-- Issue Item 1 -->
+<article class="bg-surface-container-lowest rounded-2xl overflow-hidden flex flex-col md:flex-row group">
+<div class="md:w-2/5 h-64 md:h-auto relative">
+<img alt="Pothole on street" class="w-full h-full object-cover" data-alt="large deep pothole in the middle of an asphalt city street during daylight with some scattered debris around it" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCvAxygoORhk5gY5M2OuXowaYdO4shceemiIPYqn3bGgVMNs-6QgKedGAXIODcLkIMytm-3QFi2jFMnM00cBlkfEdhXnuHAwqPmODBn2E1CiQlD97LIoC__yY3eNQWaKsvCfXnrzLgwNfHFqMr1KPddjAJcSZfd3AUAVhtT783Yx_mGl6uOjqRBx8tc88ocSZv4rjD_XcdizTRYpQ9g3hYgkkaXXR-AkgNBwgSC7QEFqaKyLAZ-S1RknwTe3jQDcPqg6sXnNcccQL8"/>
+<!-- Status Badge -->
+<div class="absolute top-4 left-4 bg-error-container text-on-error-container px-3 py-1 rounded-full text-xs font-semibold tracking-wider uppercase flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]" data-icon="report">report</span>
+                        Reported
+                    </div>
+</div>
+<div class="p-8 md:w-3/5 flex flex-col justify-between bg-surface-container-low transition-colors duration-300">
+<div>
+<div class="flex justify-between items-start mb-4">
+<div>
+<h2 class="text-2xl font-headline font-semibold text-on-surface mb-2">Severe Pothole on Main Arterial</h2>
+<p class="text-sm text-on-surface-variant flex items-center gap-1.5 font-medium">
+<span class="material-symbols-outlined text-[16px] text-primary" data-icon="location_on">location_on</span>
+                                    Ward 42, Andheri West
+                                </p>
+</div>
+<span class="text-xs text-on-surface-variant bg-surface px-2 py-1 rounded">2 hrs ago</span>
+</div>
+<p class="text-on-surface-variant text-base leading-relaxed mb-6">Large crater formed after recent rains, causing significant traffic slowdowns and potential hazard to two-wheelers.</p>
+</div>
+<div class="flex items-center justify-between pt-4 border-t border-surface-variant/30">
+<div class="flex items-center gap-3">
+<div class="flex -space-x-2">
+<img alt="Supporter" class="w-8 h-8 rounded-full border-2 border-surface-container-low" data-alt="small circular portrait of a man with short hair and glasses" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCg9Z8ePsWjk8WoRdpKpvIz5jP-BVZY8MtfbV2jHi5pKO4yN9vmdyRGjQXzQSQYxRQZQEt3m43rVBLy44lewdgwzAXtHHAnQiKWqHOSJx5ZBaYUYksOK1GYJ4omtXdIa6K9EaF2FDlZs-iYgSmWGB5bPe4mpEFzC73sMVwR7jeTKFizKtvxGUh9_MOGbcIf0rKdncchZrqKSUlowmgd01rQu38Y2Wb8KaOYpzhjeJi-CqK2ROJbyOQOm_sRNOF4pmvTZMkvZknskO8"/>
+<img alt="Supporter" class="w-8 h-8 rounded-full border-2 border-surface-container-low" data-alt="small circular portrait of a young woman with dark hair smiling" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEb4uXo3-Kz3PgF7cI11eRdH3H-va0IaFn5cZIQKIyTzCASqmXrnXZ-wKgjl0U3D37iNp-Axbkt7URgt3v95NS6xf4P3XwZH4WKwzTf_aL-RJtztEDdA30HATRpBFBnfmc_fmPWtBuZkCyG5AKwNuIjLNuyGGKe0kfLqMoiu3p_PP4Q7Zss1ICvvvPLbbxXQFiA8mjyEuofnIaZNdLtwn9HihnShMk3e41LML3uiMs4IIwiMdns3g9fPHf_OkmkqywzibTJLts85o"/>
+</div>
+<span class="text-xs font-medium text-on-surface-variant">+24 Supported</span>
+</div>
+<button class="text-primary text-sm font-semibold hover:underline decoration-2 underline-offset-4 flex items-center gap-1">
+                            View Details <span class="material-symbols-outlined text-[16px]" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Issue Item 2 -->
+<article class="bg-surface-container-lowest rounded-2xl overflow-hidden flex flex-col md:flex-row group">
+<div class="md:w-2/5 h-64 md:h-auto relative">
+<img alt="Garbage overflow" class="w-full h-full object-cover" data-alt="overflowing green municipal garbage bin on a sidewalk with bags of trash piled around it on the pavement" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDzb412rI0x-9ontLIyDh4uJH8ZedSxEvwnLYd8YZevU9dOde3LlXltpm53zCUOW1_S19E0VvuCk6SN6edsop2s2kwTaM_WGBRpq85IwSVuBNeCwOgvw5VCPcAfpm0vxaltu5mADnb7oiI1ORNn8XrsCtWBPAaEl9zWJWFnLgBk9oIBp-fadDtt1nMiusRp6bXW2eXm3YnOtBXyCgKhtItDIGhYFP7LFe5Hy0kwxp6_AHX85G8ezNdFBF_Z2YvTDXOcGXqsEECmkaE"/>
+<!-- Status Badge -->
+<div class="absolute top-4 left-4 bg-tertiary-container text-on-tertiary-container px-3 py-1 rounded-full text-xs font-semibold tracking-wider uppercase flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]" data-icon="pending">pending</span>
+                        In Progress
+                    </div>
+</div>
+<div class="p-8 md:w-3/5 flex flex-col justify-between bg-surface-container-low transition-colors duration-300">
+<div>
+<div class="flex justify-between items-start mb-4">
+<div>
+<h2 class="text-2xl font-headline font-semibold text-on-surface mb-2">Overflowing Public Bins</h2>
+<p class="text-sm text-on-surface-variant flex items-center gap-1.5 font-medium">
+<span class="material-symbols-outlined text-[16px] text-primary" data-icon="location_on">location_on</span>
+                                    Ward 12, Indiranagar
+                                </p>
+</div>
+<span class="text-xs text-on-surface-variant bg-surface px-2 py-1 rounded">5 hrs ago</span>
+</div>
+<p class="text-on-surface-variant text-base leading-relaxed mb-6">Waste collection has been missed for two consecutive days. Stray animals are spreading the garbage across the pedestrian walkway.</p>
+</div>
+<div class="flex items-center justify-between pt-4 border-t border-surface-variant/30">
+<div class="flex items-center gap-3">
+<div class="flex -space-x-2">
+<img alt="Supporter" class="w-8 h-8 rounded-full border-2 border-surface-container-low" data-alt="small circular portrait of a man smiling" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBhL1Bfswag8Z2UadP06zbrBScU9xxG1lQeAxRXxNQ6wzNhKB3kdfWn8YbyHY63jbEAApT87DAeFV96f7jtfAjELzPtFrSp6_uCp-XnBd84LHiEphh5leCBRlU9P7T4wBtGzTgXbFpwi1RuAb2I40JPo4THyMvrcHTjdOwSqIbqeK084l-lnvxRDJOOtbtKmJ7rsZxbVSIVx9DUBL7ah7QRqIELORr3gucwSo23mEgXhxjvdLzMzPqLIvnLvj2pGlzqN8VUmyRSgE0"/>
+</div>
+<span class="text-xs font-medium text-on-surface-variant">+8 Supported</span>
+</div>
+<button class="text-primary text-sm font-semibold hover:underline decoration-2 underline-offset-4 flex items-center gap-1">
+                            View Details <span class="material-symbols-outlined text-[16px]" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Issue Item 3 (Resolved) -->
+<article class="bg-surface-container-lowest rounded-2xl overflow-hidden flex flex-col md:flex-row group">
+<div class="md:w-2/5 h-64 md:h-auto relative">
+<img alt="Cleaned street" class="w-full h-full object-cover grayscale opacity-80" data-alt="clean paved pedestrian walkway lined with trees and modern streetlights in a city park setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDX7fZsJhuxRwKVbUyTtrw5GKmJbAXENXsaDdFLP2Mut4nRhii5svJUQ-zgRrohC4QH1QVF2xNavSP3FkjSDw5J-jYS8XagG9UPVuomCk9yg9SfICFWu6snagPwge5RC8fkarthKXHO95mrAEB2UJaum7tiae1iMMG-s7vR7h8Se3e1385RUOMXeg5usqsv9W_aP0yQ6Oyjm88oO-TdJUyb5zrxgRfDJj-TN5zuxWeTp9Zd890rm_ncsLVIgoX3lbRz4P-4PzY6Ucw"/>
+<!-- Status Badge -->
+<div class="absolute top-4 left-4 bg-secondary text-on-secondary px-3 py-1 rounded-full text-xs font-semibold tracking-wider uppercase flex items-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-[14px]" data-icon="check_circle">check_circle</span>
+                        Resolved
+                    </div>
+</div>
+<div class="p-8 md:w-3/5 flex flex-col justify-between bg-surface-container-lowest">
+<div>
+<div class="flex justify-between items-start mb-4">
+<div>
+<h2 class="text-xl font-headline font-semibold text-on-surface mb-2 opacity-80">Broken Streetlight Fixed</h2>
+<p class="text-sm text-on-surface-variant flex items-center gap-1.5 font-medium">
+<span class="material-symbols-outlined text-[16px] text-primary" data-icon="location_on">location_on</span>
+                                    Ward 8, Koramangala
+                                </p>
+</div>
+<span class="text-xs text-on-surface-variant bg-surface px-2 py-1 rounded">1 day ago</span>
+</div>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-4 opacity-80">The non-functioning LED fixture near the park entrance has been replaced by the municipal electricity board.</p>
+</div>
+</div>
+</article>
+</div>
+<!-- Load More -->
+<div class="mt-16 text-center">
+<button class="text-primary text-sm font-semibold uppercase tracking-widest hover:bg-surface-container-low px-6 py-3 rounded-full transition-colors">
+                Load More Issues
+            </button>
+</div>
+</main>
+<!-- Floating Action Button (FAB) -->
+<button aria-label="Report Issue" class="fixed bottom-24 md:bottom-8 right-6 md:right-12 z-50 bg-gradient-to-br from-primary to-primary-container text-on-primary w-14 h-14 rounded-2xl shadow-[0_8px_32px_rgba(0,88,189,0.3)] flex items-center justify-center hover:scale-105 active:scale-95 transition-all duration-300 group">
+<span class="material-symbols-outlined text-3xl group-hover:rotate-90 transition-transform duration-300" data-icon="add">add</span>
+</button>
+<!-- BottomNavBar (Mobile Only) -->
+<nav class="md:hidden fixed bottom-0 left-0 w-full flex justify-around items-center px-4 pb-6 pt-3 bg-white/80 dark:bg-slate-900/80 backdrop-blur-xl z-50 rounded-t-2xl border-t-0 shadow-[0_-8px_32px_0_rgba(28,27,27,0.04)]">
+<!-- Home (Active) -->
+<a class="flex flex-col items-center justify-center bg-[#0058bd]/10 dark:bg-blue-900/30 text-[#0058bd] dark:text-blue-200 rounded-xl px-4 py-1 transition-all duration-300 ease-in-out" href="#">
+<span class="material-symbols-outlined mb-1" data-icon="home" data-weight="fill">home</span>
+<span class="font-['Inter'] text-[11px] font-medium uppercase tracking-wider">Home</span>
+</a>
+<!-- Leaderboard (Inactive) -->
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 px-4 py-1 hover:text-[#0058bd] dark:hover:text-blue-300 transition-all duration-300 ease-in-out" href="#">
+<span class="material-symbols-outlined mb-1" data-icon="leaderboard">leaderboard</span>
+<span class="font-['Inter'] text-[11px] font-medium uppercase tracking-wider">Leaderboard</span>
+</a>
+<!-- Profile (Inactive) -->
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 px-4 py-1 hover:text-[#0058bd] dark:hover:text-blue-300 transition-all duration-300 ease-in-out" href="#">
+<span class="material-symbols-outlined mb-1" data-icon="person">person</span>
+<span class="font-['Inter'] text-[11px] font-medium uppercase tracking-wider">Profile</span>
+</a>
+</nav>
+</body></html>
