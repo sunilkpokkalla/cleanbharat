@@ -10,7 +10,7 @@ import { useReportStore } from '../store/useReportStore';
 const CATEGORIES = [
   { id: 'garbage', label: 'Garbage', icon: 'delete', color: Theme.colors.primary },
   { id: 'drainage', label: 'Drainage', icon: 'water-drop', color: Theme.colors.primary },
-  { id: 'pothole', label: 'Pothole', icon: 'road', color: Theme.colors.primary },
+  { id: 'pothole', label: 'Pothole', icon: 'warning', color: Theme.colors.primary },
   { id: 'other', label: 'Other', icon: 'more-horiz', color: Theme.colors.primary },
 ];
 
